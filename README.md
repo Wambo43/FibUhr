@@ -13,3 +13,22 @@ Now one can get the time by summing up the valence of the squares. The colors me
 * Green: sum of minutes * 5
 * Blue: sum of both
 * White: unused
+
+The time changes every 5 minutes.
+Some times can be displayed in different ways. The combination of the representations are as follows
+
+combinations:
+  *  0 := {Ø}
+  *  1 := {(1); (1 *)}
+  *  2 := {(2); (1,1 *)}
+  *  3 := {(3); (2,1); (2,1 *)}
+  *  4 := {(1,1 *, 2); (3,1); (3,1 *)}
+  *  5 := {(1,1 *, 3), (2,3), (5)}
+  *  6 := {(5,1) (5,1 *); (3,2,1), (3,2,1 *)}
+  *  7 := {(5,2); (5,1,1 *)}
+  *  8 := {(5,3); (5,2,1); (5,2,1 *)}
+  *  9 := {(5,3,1); (5,3,1 *); (5,2,1,1 *)}
+  * 10 := {(5,3,2); (5,3,1,1 *)}
+  * 11 := {(5,3,2,1), (5,3,2,1 *)}
+
+The combinations change every 0.2 seconds.
